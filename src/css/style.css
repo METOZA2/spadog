@@ -64,3 +64,56 @@ body {
   background-color: var(--colorButton);
   text-decoration: none;
 }
+/* section features */
+.features-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+/* section services */
+.services {
+  background-color: var(--colorBGSection);
+}
+.services-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+.services-text {
+  text-align: center;
+  font-size: 32px;
+}
+.services-name {
+  font-weight: 600;
+}
+.services-button {
+  font-family: var(--textSecondary);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  background-color: var(--colorBGPrimary);
+}
+.footer-logo {
+  font-weight: 300;
+  color: var(--colorTExtContrast);
+  font-size: 40px;
+  text-decoration: none;
+}
+.footer-logo-part {
+  font-weight: 700;
+}
+.footer-policy {
+  color: var(--colorTExtContrast);
+  font-size: 24px;
+}
