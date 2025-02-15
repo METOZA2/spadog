@@ -3,170 +3,146 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spa Dog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- лінк -->
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <title>Spa Dog</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">SERVICES</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">PAGES</a></li>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">PAGES</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <section class="hero">
-        <div class="hero-content">
-          <h1 class="hero-title">
-            Make your dogs <span class="hero-title-part">Look their best</span>
-          </h1>
-          <button class="hero-button" type="button">FREE CONSULTATION</button>
+    <main>
+      <section>
+        <div>
+          <h1>Make your dogs Look their best</h1>
+          <button type="button">FREE CONSULTATION</button>
         </div>
-        <div class="hero-photo">
-          <img
-            class="heroo-img"
-            src="./src/img/hero-dog.jpg"
-            alt="black and white dog"
-          />
+        <div>
+          <img src="./src/img/hero-dog.jpg" alt="black and white dog" />
         </div>
       </section>
-      <section class="about">
-        <div class="about-photo">
-          <img
-            class="about-img"
-            src="./src/img/goldendog.png"
-            alt="Golden Dog"
-          />
+      <section>
+        <div>
+          <img src="./src/img/goldendog.png" alt="Golden Dog" />
         </div>
-        <div class="about-content">
-          <h2 class="about-titke">A Few Words About Us</h2>
-          <p class="about-text">
+        <div>
+          <h2>A Few Words About Us</h2>
+          <p>
             SpaDog is a pet salon established in 1999 with the main goal of
             giving your pets the full furry body treatment so that they can look
             their very best every day.
           </p>
-          <p class="about-text">
+          <p>
             Our salon offers a complete line of fine grooming services to bring
             out the best of appearance and personality in your pet Our groomers
             work carefully, never rush, and do not overbook appointments.
           </p>
-          <a class="about-link" href="#">LEARN MORE</a>
+          <a href="#">LEARN MORE</a>
         </div>
       </section>
-      <section class="features">
-        <ul class="features-list">
-          <li class="features-item">
-            <h3 class="features-title">Qualified Employees</h3>
-            <p class="features-text">
+      <section>
+        <ul>
+          <li>
+            <h3>Qualified Employees</h3>
+            <p>
               Our team consists of more than 20 qualified and experienced
               accountants, marketers, and managers.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-title">Free Consultations</h3>
-            <p class="features-text">
+          <li>
+            <h3>Free Consultations</h3>
+            <p>
               Our acquaintance with a client always begins with a free
               consultation to find out possible solutions to their problems.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-title">100% Guaranteed</h3>
-            <p class="features-text">
+          <li>
+            <h3>100% Guaranteed</h3>
+            <p>
               All results that you get from us are 100% guaranteed to bring you
               to a whole new level of profitability and financial success.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-title">100% Guaranteed</h3>
-            <p class="features-text">
+          <li>
+            <h3>100% Guaranteed</h3>
+            <p>
               All results that you get from us are 100% guaranteed to bring you
               to a whole new level of profitability and financial success.
             </p>
           </li>
         </ul>
-        <div class="features-photo">
-          <img
-            class="features-img"
-            src="./src/img/black_dog.png"
-            alt="Black dog"
-          />
+        <div>
+          <img src="./src/img/black_dog.png" alt="Black dog" />
         </div>
       </section>
-      <section class="services">
-        <hgroup class="services-heading">
-          <h2 class="services-title">Services</h2>
-          <p class="services-text">
+      <section>
+        <hgroup>
+          <h2>Services</h2>
+          <p>
             We offer a variety of grooming services for dogs of all breeds and
             ages. We use only high- quality products that suit the needs of your
             pet. Discover our most popular services below.
           </p>
         </hgroup>
-        <ul class="services-list">
-          <li class="services-item">
-            <div class="services-photo">
-              <img
-                class="services-img"
-                src="./src/img/services/styling.jpg"
-                alt="Styling"
-              />
+        <ul>
+          <li>
+            <div>
+              <img src="./src/img/services/styling.jpg" alt="Styling" />
             </div>
-            <h3 class="services-name">Styling</h3>
+            <h3>Styling</h3>
           </li>
-          <li class="services-item">
-            <div class="services-photo">
-              <img
-                class="services-img"
-                src="./src/img/services/grooming.jpg"
-                alt="Full Grooming"
-              />
+          <li>
+            <div>
+              <img src="./src/img/services/grooming.jpg" alt="Full Grooming" />
             </div>
-            <h3 class="services-name">Full Grooming</h3>
+            <h3>Full Grooming</h3>
           </li>
-          <li class="services-item">
-            <div class="services-photo">
+          <li>
+            <div>
               <img
-                class="services-img"
                 src="./src/img/services/bath-tydy.jpg"
                 alt="Bath & Tidy Up"
               />
             </div>
-            <h3 class="services-name">Bath & Tidy Up</h3>
+            <h3>Bath & Tidy Up</h3>
           </li>
-          <li class="services-item">
-            <div class="services-photo">
-              <img
-                class="services-img"
-                src="./src/img/services/bath.jpg"
-                alt="Deluxe Bath"
-              />
+          <li>
+            <div>
+              <img src="./src/img/services/bath.jpg" alt="Deluxe Bath" />
             </div>
-            <h3 class="services-name">Deluxe Bath</h3>
+            <h3>Deluxe Bath</h3>
           </li>
         </ul>
-        <button class="services-button" type="button">VIEW ALL SERVICES</button>
+        <button type="button">VIEW ALL SERVICES</button>
       </section>
     </main>
-    <footer class="footer">
-      <a class="footer-logo" href="./index.html">
-        <img
-          class="footer-logo-img"
-          src="./src/img/logo.png"
-          alt="Logo SpaDog"
-        />
-        Spa<span class="footer-logo-part">Dog</span>
+    <footer>
+      <a href="./index.html">
+        <img src="./src/img/logo.png" alt="Logo SpaDog" />
+        Spa<span>Dog</span>
       </a>
-      <p class="footer-policy">© 2023 All Rights Reserved. Privacy Policy</p>
+      <p>© 2023 All Rights Reserved. Privacy Policy</p>
     </footer>
   </body>
 </html>
